@@ -4,6 +4,22 @@
    Author's custom styles
    ========================================================================== */
 
-table.tabuleiro {
-  
+table#tabuleiro {
+}
+
+table#tabuleiro tr td {  
+  border: 8px solid white;
+  background: #eee;
+  padding: 5px 8px;
+  cursor:pointer;
+  text-align:center;
+  width:60px;
+}
+
+table#tabuleiro tr td.on {
+  background: #ccc;
+}
+
+table#tabuleiro tr td.letter {
+  background: #D3E6D3;
 }
